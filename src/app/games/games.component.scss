@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+  }
+
+  .mat-column-select {
+    overflow: initial;
+  }
+
+  .good{
+    width: 20px; 
+    height: 20px; 
+    margin:auto; 
+    display: inline-block; 
+    border: 1px solid gray; 
+    border-radius: 20px;
+    vertical-align: middle; 
+    background: #00ff15;
+  }
+
+  .middle{
+    width: 20px; 
+    height: 20px; 
+    margin:auto; 
+    display: inline-block; 
+    border: 1px solid gray; 
+    border-radius: 20px;
+    vertical-align: middle; 
+    background: #ff9100;
+  }
+
+  .bad{
+    width: 20px; 
+    height: 20px; 
+    margin:auto; 
+    display: inline-block; 
+    border: 1px solid gray; 
+    border-radius: 20px;
+    vertical-align: middle; 
+    background: #db0101;
+  }
