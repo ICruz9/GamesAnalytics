@@ -3,9 +3,9 @@
     <span style="padding-left: 650px;">Games Scraping</span>
   </mat-toolbar>
   <div style="padding: 20px;">
-    <label id="tool" >Filtro de Búsqueda:</label>
+    <label id="tool" >Search Filter:</label>
     <mat-form-field>
-        <input id="span" matInput (keyup)="applyFilter($event.target.value)" placeholder="Escriba el valor para filtrar">
+        <input id="span" matInput (keyup)="applyFilter($event.target.value)" placeholder="Enter the value to filter">
     </mat-form-field>
     <table mat-table [dataSource]="dataSource" matSort class="w-100 mat-elevation-z8">
       <!-- Position Column -->
