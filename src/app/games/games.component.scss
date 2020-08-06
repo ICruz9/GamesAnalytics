@@ -9,6 +9,7 @@ table {
   .good{
     width: 20px; 
     height: 20px; 
+    color: white;
     margin:auto; 
     display: inline-block; 
     border: 1px solid gray; 
@@ -21,6 +22,7 @@ table {
     width: 20px; 
     height: 20px; 
     margin:auto; 
+    color: white;
     display: inline-block; 
     border: 1px solid gray; 
     border-radius: 20px;
@@ -31,6 +33,7 @@ table {
   .bad{
     width: 20px; 
     height: 20px; 
+    color: white;
     margin:auto; 
     display: inline-block; 
     border: 1px solid gray; 
@@ -38,3 +41,33 @@ table {
     vertical-align: middle; 
     background: #db0101;
   }
+#tool{
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 550px; margin-right: 10px; text-align: center; color: rgb(63, 81, 181); font-size: 20px;
+}
+#span{ 
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+  font-size: 15px;
+}
+#tabla{
+  margin-top: 8px;
+  text-align: center;
+}
+.mat-cell {
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid lightslategray;
+}
+.mat-header-cell{
+  background-color:  rgb(63, 81, 181);
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  min-height: 48px;
+  text-align: center;
+  border: 1px solid gray;
+}
